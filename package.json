@@ -1,0 +1,32 @@
+{
+  "name": "@vectorform/aemmultisync",
+  "version": "1.0.0",
+  "description": "CLI tool to watch multiple directories with aemsync at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vectorform/aemmultisync.git"
+  },
+  "keywords": [
+    "aem",
+    "aemsync"
+  ],
+  "author": "Mike Dettmer <mike@mikedettmer.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vectorform/aemmultisync/issues"
+  },
+  "homepage": "https://github.com/vectorform/aemmultisync#readme",
+  "dependencies": {
+    "aemsync": "^1.1.1",
+    "untildify": "^3.0.2",
+    "yargs": "^11.0.0"
+  },
+  "bin": {
+    "aemmultisync": "index.js",
+    "ams": "index.js"
+  }
+}
